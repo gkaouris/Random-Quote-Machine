@@ -1,0 +1,55 @@
+.background{
+  background-image: url(connectwork.png);
+  background-repeat: repeat;
+}
+
+.container{
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding-top: 50px;
+}
+
+.container h1{
+  font-family: 'Pacifico', cursive;
+}
+
+.container h3{
+  font-family: 'Pacifico', cursive;
+
+}
+
+.list-inline{
+  padding-top: 10px;
+}
+
+#buttons a{
+  padding:14px;
+}
+
+.quote-box p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border: 3px solid;
+  background-color: #999da3;
+  border-radius: 15px;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#george{
+  margin-top: 10px;
+  color: white;
+}
+
+#george a{
+  color: white;
+  padding: 4px;
+}
+
+.signature{
+  margin-top: 50px;
+  font-size: 20px;
+}
