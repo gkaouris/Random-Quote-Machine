@@ -1,0 +1,54 @@
+# Random-Quote-Machine
+Created a Quote Machine utilizing HTML, CSS, and Javascript with use of APIs. (Including Bootstrap and JQuery)
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Random Quote Generator</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  </head>
+
+  <body class= "background">
+    <div class="container animated fadeInDownBig">
+      <div class= "row">
+        <div class= "col-md-12">
+          <h1> Random Quote Generator </h1>
+          <h3> Click Below to be Inspired </h3>
+          <hr>
+        </div>
+      </div>
+      <div class= "row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class= "quote-box">
+            <p id="quote"></p>
+            <p id= "author"></p>
+        </div>
+        <ul class="list-inline" id="buttons">
+          <li><a href="#" class= "btn- btn-danger btn-lg get-quote"><i class= "fa fa-quote-left fa-fw"></i> Get Quote</a></li>
+          <li><a href="#" class= "btn- btn-primary btn-lg share-quote"><i class= "fab fa-twitter fa-fw"></i> Share Quote</a></li>
+        </ul>
+        <h2 class= "signature"> Coded and Designed by George Kaouris </h2>
+        <ul class="list-inline" id="george">
+          <li><a href="https://github.com/gkaouris"><i class="fab fa-github fa-2x"></i></li>
+            <li><a href="https://codepen.io/gkaouris/"><i class="fab fa-codepen fa-2x"></i></li>
+              <li><a href="https://www.linkedin.com/in/george-kaouris-4aa3b413a/"><i class="fab fa-linkedin-in fa-2x"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
